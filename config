@@ -1,0 +1,3 @@
+include ./common
+
+output DP-3 scale 1.5

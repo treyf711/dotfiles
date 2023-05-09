@@ -1,0 +1,6 @@
+include ./common
+output HEADLESS-1 {
+pos 0,0
+mode 1920x1080@60Hz
+}
+exec WAYLAND_DISPLAY=wayland-1 wayvnc 0.0.0.0
